@@ -1,4 +1,4 @@
-package y2022.d13;
+package y2022.m05.d13;
 
 public class Solution_ms01_05 {
     public boolean oneEditAway(String first, String second) {
