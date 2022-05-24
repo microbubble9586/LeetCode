@@ -1,7 +1,5 @@
 package y2022.m05.d21;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class Solution_961_E {
     int[] cnts = new int[10010];
