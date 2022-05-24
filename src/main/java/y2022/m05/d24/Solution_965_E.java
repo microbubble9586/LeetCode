@@ -22,6 +22,14 @@ class TreeNode {
 }
 
 public class Solution_965_E {
+    //递归方法与非递归方法
+//    int val = -1;
+//    public boolean isUnivalTree(TreeNode root) {
+//        if (val == -1) val = root.val;
+//        if (root == null) return true;
+//        if (root.val != val) return false;
+//        return isUnivalTree(root.left) && isUnivalTree(root.right);
+//    }
     public boolean isUnivalTree(TreeNode root) {
         if (root.left == null & root.right == null) {
             return true;
