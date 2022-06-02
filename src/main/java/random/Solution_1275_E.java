@@ -17,6 +17,7 @@ public class Solution_1275_E {
             }
             if ((b&i)==i){
                 return "B";
+
             }
         }
         return n==9?"Draw":"Pending";
