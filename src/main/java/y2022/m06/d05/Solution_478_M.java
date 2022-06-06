@@ -12,8 +12,10 @@ public class Solution_478_M {
         this.y = y;
     }
     public double[] randPoint() {
-        double len = Math.sqrt(random.nextDouble(r * r)), ang = random.nextDouble(2 * Math.PI);
-        double nx = x + len * Math.cos(ang), ny = y + len * Math.sin(ang);
-        return new double[]{nx, ny};
+//        对于nextDouble()函数为什么不允许存在参数存在疑问，暂时先进行注释代码
+//        double len = Math.sqrt(random.nextDouble(r*r)), ang = random.nextDouble(2 * Math.PI);
+//        double nx = x + len * Math.cos(ang), ny = y + len * Math.sin(ang);
+//        return new double[]{nx, ny};
+        return new double[0];
     }
 }
