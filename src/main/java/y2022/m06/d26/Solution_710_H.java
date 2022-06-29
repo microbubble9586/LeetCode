@@ -12,6 +12,7 @@ public class Solution_710_H {
     int sz;
     Random random = new Random();
 
+
 //    public Solution(int n, int[] blacklist) {
     public Solution_710_H(int n, int[] blacklist) {
         Arrays.sort(blacklist);
