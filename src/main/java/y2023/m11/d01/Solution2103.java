@@ -1,6 +1,6 @@
 package y2023.m11.d01;
 
-public class Solution {
+public class Solution2103 {
     public int countPoints(String s) {
         int n = s.length(), ans = 0;
         int[] map = new int[128];
